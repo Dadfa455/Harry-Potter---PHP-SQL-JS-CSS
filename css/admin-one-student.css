@@ -1,0 +1,61 @@
+main {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.342)),
+                url("../img/hogwarts-admin-background-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-heading h1 {
+    text-align: center;
+    padding: 30px 0;
+    color: rgb(228, 228, 228);
+    font-size: 30px;
+}
+
+.one-student {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-student .one-student-box {
+    width: calc(100vw / 3 - 60px);
+    min-height: 130px;
+    background: rgba(250, 235, 215, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.one-student .one-student-buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all .3s linear;
+}
+
+.one-student .one-student-buttons a:first-of-type {
+    background: #a17e20;
+}
+
+.one-student .one-student-buttons a:last-of-type {
+    background: rgb(189, 31, 31);
+}
+
+.one-student .one-student-buttons a:first-of-type:hover {
+    background: #6d5106;
+}
+
+.one-student .one-student-buttons a:last-of-type:hover {
+    background: rgb(94, 1, 1);
+}

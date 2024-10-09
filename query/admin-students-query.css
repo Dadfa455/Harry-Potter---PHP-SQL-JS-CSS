@@ -1,0 +1,11 @@
+@media (max-width: 700px) {
+    .one-student {
+        width: calc(100vw / 2 - 60px);
+    }
+}
+
+@media (max-width: 500px) {
+    .one-student {
+        width: calc(100vw - 60px);
+    }
+}

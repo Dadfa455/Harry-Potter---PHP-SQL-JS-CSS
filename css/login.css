@@ -1,0 +1,40 @@
+main {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.342)),
+                url("../img/hogwarts-admin-background-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .login {
+    background: rgba(250, 235, 215, 0.6);
+    min-height: 130px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+main .login h2 {
+    color: rgb(255, 97, 97);
+}
+
+main .login a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: white;
+    background: #a17e20;
+    transition: all .3s linear;
+}
+
+main .login a:hover {
+    background: #6d5106;
+}
